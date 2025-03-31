@@ -30,6 +30,7 @@ public class Principal {
             String direccion = sc1.nextLine();
             personas[i] = new Persona(cedula, nombre, apellido, direccion);
         }
+        //Gay
 
         for (int i = 0; i < numeroDeFamiliares; i++) {
             System.out.println("--- FAMILIARES ---");
